@@ -1,0 +1,21 @@
+# Site settings
+title: Coding for Me
+header-img: img/home-bg.png
+email: araba.taylor20@gmail.com
+copyright_name: OkayAtay
+description: > # this means to ignore newlines until "baseurl:"
+  Blog about Araba growing in her knowledge and application of coding.
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  OkayAtay
+learn_profile: OkayAtay
+email_username: araba.taylor20@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
