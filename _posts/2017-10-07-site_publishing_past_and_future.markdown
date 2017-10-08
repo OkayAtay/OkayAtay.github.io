@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Site Publishing (Past & Future)"
-date:       2017-10-08 00:10:16 +0000
+date:       2017-10-07 20:10:17 -0400
 permalink:  site_publishing_past_and_future
 ---
 
