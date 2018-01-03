@@ -1,0 +1,42 @@
+---
+layout: post
+title:      "Why 'Pry' ?"
+date:       2018-01-03 03:01:27 +0000
+permalink:  why_pry
+---
+
+
+Have you been using pry? How often? Maybe not often enough?
+
+The ruby gem 'pry' has been a lifesaver in my coding crusade and I've finally started to understand some of the most useful (I'm still pretty much a beginner and have much to learn) tips and tricks that I'd like to share. Also, please forgive slips in syntax and terminology, I'm working through what everything is *actually* called versus calling all tech related nouns, "that thing on that thing in that place."
+
+Pry is a great way to see what's happening within your code. Confused what variables are defined as, or what's being returned, this little gem.
+
+So here is your 'pry' cheat sheet/my current go-tos.
+
+**Basics**
+
+gem install pry - 
+This little piece of code is what you type into the CLI to get 'pry' installed. Learn often automatically installs all gems, but it's important to remember that when we're outside of this cushy pre-fab environment, we have to do it ourselves.
+
+require "pry" - 
+Yup, even when pry is already installed, in order to use it you need to type the above at the head of the file. That way the gem is applied to the page.
+
+binding.pry - 
+WHOOO, this means you're ready to use your pry. Place this little tidbit of code within the method that you'd like to explore further. 
+
+Note: if your pry isn't 'working' that may mean that you should move it up within the method. Is it possible that the entire method is running without hitting the 'pry' and that's why you're not getting the desired result.
+
+**Next Level/Useful Tidbits**
+
+Trying to figure out exactly where your code is breaking down? 
+Use 'exit' to move through the rspec lines to get to what you're testing
+
+Want to see how your code is reacting to a specific rspec test?
+Rather than typing "learn"  or even "learn --f-f (which allows you to run 1 test at a time) -- type the specific rspec error line into your command line
+
+
+---------
+Ok, so maybe I don't have the most cutting edge pry techniques to share; but really -- use this gem! The sooner, the better. =)
+
+
